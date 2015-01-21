@@ -1,0 +1,26 @@
+#Codebook for run_analysis.R
+
+wdir :    This describes the directory containing the Samsung data. Note that the directory tree from the zip file must be replicated.
+
+subject:        Table containing the subject number for the training data.
+activity:       Table containing the activity code numbers for the training data.
+data:           Table containing the actual training data 
+train_data:     Combined subject, activity code, and training data into one data frame
+
+subject_test:   Table containing the subject number for the test data.
+activity_test:  Table containing the activity code numbers for the test data.
+data_test:      Table containing the actual test data 
+test_data:      Combined subject, activity code, and test data into one data frame
+
+data_labels:    Column names for the data frames describing the measured parameters
+alldata:        Combined training data, test data, and variable names in one data frame
+
+means:          Column index for all columns containing measurement means
+stds:           Column index for all columns containing measurement standard deviations
+newcols:        Indices for all columns to keep
+summary_data:   Data frame containing only mean and standard deviation measurements
+
+mydata:         Summary data in format suitable for preview
+grouped_data:   Group data by subject and activity code
+tidy_data:      Data summarized by subject and activity code
+
